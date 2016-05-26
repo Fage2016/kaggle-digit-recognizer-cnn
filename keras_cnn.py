@@ -10,7 +10,7 @@ import keras.utils.np_utils as kutils
 train = pd.read_csv("./train.csv").values
 test = pd.read_csv("./test.csv").values
 
-epoch = 5
+epoch = 50
 
 batch_size = 128
 img_rows, img_cols = 28, 28
